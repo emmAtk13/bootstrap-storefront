@@ -1,0 +1,20 @@
+.single-products-catagory .hover-content .line {
+  background-color: #650d88;
+}
+
+.main-content-wrapper .header-area .amado-nav li a::after{
+  background-color: #650d88;
+}
+
+.newsletter-area .newsletter-text h2 span{
+  background-color: #650d88;
+  color: white;
+}
+
+.newsletter-area .newsletter-form form input[type="submit"]{
+  background-color: #650d88;
+}
+
+.footer_area .single_widget_area .footer_menu .navbar-nav .nav-item.active .nav-link{
+  color: #650d88; 
+}

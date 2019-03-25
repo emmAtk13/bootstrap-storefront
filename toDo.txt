@@ -1,0 +1,12 @@
+change the logo
+
+change the color from yellow
+
+change the discount button text
+
+change the nine photos
+
+change the subscribe for discount (less discount, 
+add name to subscribe)
+
+change colors of the pages
