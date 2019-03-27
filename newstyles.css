@@ -1,20 +1,23 @@
-.single-products-catagory .hover-content .line {
-  background-color: #650d88;
+body {
+  font-family: 'Raleway', sans-serif;;
+  font-size: 16px; }
+
+.newsletter-area{
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
 }
 
-.main-content-wrapper .header-area .amado-nav li a::after{
-  background-color: #650d88;
+.footer_area{
+  background-color: #7028e4;
 }
 
-.newsletter-area .newsletter-text h2 span{
-  background-color: #650d88;
-  color: white;
+.footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link:hover {
+    color: #e5b2ca;
 }
 
-.newsletter-area .newsletter-form form input[type="submit"]{
-  background-color: #650d88;
+.single-products-catagory a::after{
+  text-shadow: none;
 }
 
-.footer_area .single_widget_area .footer_menu .navbar-nav .nav-item.active .nav-link{
-  color: #650d88; 
+.single-products-catagory .hover-content h4{
+  text-shadow: 2px 2px 4px white;
 }
