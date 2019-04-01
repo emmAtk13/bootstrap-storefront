@@ -15,9 +15,41 @@ body {
 }
 
 .single-products-catagory a::after{
+  background-color: rgba(112, 40, 228, 0.7);
+}
+
+.single-products-catagory:hover .hover-content p, .single-products-catagory:hover .hover-content h4,
+.single-products-catagory:focus .hover-content p, .single-products-catagory:focus .hover-content h4{
+  color: white;
+  text-transform: uppercase;
+}
+
+.badge-secondary{
+  display:block;
+  position:absolute;
+  top:10px;
+  right:0;
+}
+
+.switch{
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 0;
+}
+
+.single-products-catagory:hover .hover-content p, .single-products-catagory:hover .hover-content h4,
+.single-products-catagory:focus .hover-content p, .single-products-catagory:focus .hover-content h4, .switch{
+   display: block;
+}
+
+
+/*--
+.single-products-catagory a::after{
   text-shadow: none;
 }
 
 .single-products-catagory .hover-content h4{
   text-shadow: 2px 2px 4px white;
 }
+--*/
