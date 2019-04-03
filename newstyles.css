@@ -24,6 +24,8 @@ body {
 }
 
 
+
+
 .single-products-catagory .pic-norm, .single-products-catagory .pic-norm{
   opacity:1;
   transition:all .3s ease-out 0s;
@@ -52,6 +54,7 @@ body {
   right:0;
 }
 
+
 .switch{
     display: none;
     position: absolute;
@@ -59,71 +62,82 @@ body {
     left: 0;
 }
 
-.single-products-catagory:hover .hover-content p, .single-products-catagory:hover .hover-content h4,
-.single-products-catagory:focus .hover-content p, .single-products-catagory:focus .hover-content h4, .switch{
+.single-products-catagory:hover .hover-content .switch, .single-products-catagory:focus .hover-content .switch{
    display: block;
 }
 
 /*--
-.amado-pro-catagory .clearfix .add-more{
-  width: 150px;
-  padding:: 0em;
+.single-products-catagory .add-more{
+  width:150px;
+  padding:0;
+  margin:0;
   list-style:none;
   opacity:0;
-  transform: translateY(-50%) translateX(-50%);
+  transform:translateY(-50%) translateX(-50%);
   position:absolute;
-  top: 60%;
-  left: 50%;
-  z-index: 1;
-  transition: all .3s ease 0s;
+  top:60%;
+  left:50%;
+  z-index:1;
+  transition:all .3s ease 0s;
 }
 
-.amado-pro-catagory .clearfix .add-more li{
-  display: inline-block;
+.single-products-catagory:hover .add-more {
+  opacity:1;
+  top:50%;
 }
 
-.amado-pro-catagory .clearfix .add-more li a{
+.single-products-catagory .add-more li{
+  display:inline-block;
+}
+
+.single-products-catagory  .add-more li a{
   color: black;
   background-color:#650d88;
+  font-size:16px;
+  line-height:40px;
   text-align:center;
-  width: 40px;
-  margin: 0 2px;
-  display: block;
-  position: relative;
-  transition: all .3s ease-in-out;
+  height:40px;
+  width:40px;
+  margin:0 2px;
+  display:block;
+  position:relative;
+  transition:all .3s ease-in-out;
 }
 
-.amado-pro-catagory .clearfix .add-more li a:hover{
+.single-products-catagory .add-more li a:hover{
   color: white;
   background-color:#650d88;
 }
 
-.amado-pro-catagory .clearfix .add-more li a::after,
-.amado-pro-catagory .clearfix .add-more li a::before{
+.single-products-catagory .add-more li a::after,
+.single-products-catagory .add-more li a::before{
   color: white;
   background-color:#650d88;
-  padding: 1px 5px;
-  white-space: nowrap;
-  opacity: 0;
-  transform: translateX(-50%);
-  position: absolute;
-  top: -30px;
-  left: 50%;
+  font-size:12px;
+  letter-spacing:1px;
+  line-height:20px;
+  padding:1px 5px;
+  white-space:nowrap;
+  opacity:0;
+  transform:translateX(-50%);
+  position:absolute;
+  left:50%;
+  top:-30px;
 }
 
-.amado-pro-catagory .clearfix .add-more li a::after{
+.single-products-catagory .add-more li a::after{
   content:'';
   height:15px;
   width:15px;
-  border-radius:0px;
-  transform: translateX(-50%) rotate(45deg);
+  border-radius:0;
+  transform:translateX(-50%) rotate(45deg);
   top:-20px;
   z-index:-1;
 }
 
-.amado-pro-catagory .clearfix .add-more li a:hover::after,
-.amado-pro-catagory .clearfix .add-more li a:hover::before{
-  opacity: 1;
+.single-products-catagory .add-more li a:hover::after,
+.single-products-catagory .add-more li a:hover::before{
+  opacity:1;
 }
 --*/
 
